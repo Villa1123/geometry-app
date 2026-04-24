@@ -1,7 +1,7 @@
 import java.util.Scanner;
 //kode der skal refactors
 public class Main {
-
+//jsjsjs
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         ShapeCalculator calculator = new ShapeCalculator();
