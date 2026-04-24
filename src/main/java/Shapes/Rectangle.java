@@ -1,6 +1,6 @@
 package Shapes;
 
-public class Rectangle {
+public class Rectangle extends Shape{
 
     private double width,height;
 
@@ -25,13 +25,14 @@ public class Rectangle {
         this.height = height;
     }
 
-    public double calculateRectangleArea(double width, double height) {
-        return width * height;
-    }
 
-    public double calculateRectanglePerimeter(double width, double height) {
+    @Override
+    public double area() {
         return 2 * (width + height);
     }
 
-
+    @Override
+    public double perimeter() {
+        return width * height;
+    }
 }
