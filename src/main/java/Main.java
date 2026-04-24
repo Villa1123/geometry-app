@@ -1,8 +1,13 @@
+import ui.ConsoleUi;
+
 import java.util.Scanner;
 //kode der skal refactors
 public class Main {
 //jsjsjs
     public static void main(String[] args) {
+        ConsoleUi ui = new ConsoleUi();
+        ui.chosseAShape();
+        /*
         Scanner scanner = new Scanner(System.in);
         ShapeCalculator calculator = new ShapeCalculator();
 
@@ -37,6 +42,6 @@ public class Main {
             System.out.println("Unknown shape");
         }
 
-        scanner.close();
+        scanner.close();*/
     }
 }
