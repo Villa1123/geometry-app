@@ -1,0 +1,12 @@
+geometry-app
+│
+├── app
+│   └── Main
+│
+├── shapes
+│   └── Shape
+│   └── Circle
+│   └── Rectangle
+│
+├── ui
+│   └── ConsoleUI
