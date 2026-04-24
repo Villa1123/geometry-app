@@ -1,7 +1,7 @@
 package ui;
 
 import Shapes.*;
-import org.w3c.dom.css.Rect;
+
 
 public class ConsoleUi {
 
