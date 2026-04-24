@@ -1,6 +1,6 @@
 geometry-app
 │
-├── app
+├── main
 │   └── Main
 │
 ├── shapes
