@@ -25,11 +25,11 @@ public class Rectangle {
         this.height = height;
     }
 
-    public double calculateRectangleArea(double width, double height) {
+    public double calculateRectangleArea() {
         return width * height;
     }
 
-    public double calculateRectanglePerimeter(double width, double height) {
+    public double calculateRectanglePerimeter() {
         return 2 * (width + height);
     }
 
