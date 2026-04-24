@@ -67,8 +67,8 @@ public class ConsoleUi {
         double area = triangle.area();
         double perimeter = triangle.perimeter();
 
-        System.out.println("Triangle Area: " + area);
-        System.out.println("Triangle Perimeter: " + perimeter);
+        System.out.printf("Triangle Area: %.2f \n", area);
+        System.out.printf("Triangle Perimeter: %.2f", perimeter);
     }
 
 }
