@@ -1,6 +1,6 @@
 package Shapes;
 
-public class Rectangle extends Shape{
+public class Rectangle implements Shape {
 
     private double width,height;
 
