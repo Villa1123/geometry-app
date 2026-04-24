@@ -1,7 +1,7 @@
-package Shapes;//
+package Shapes;
 
 public interface Shape {
-    void area();
+    double area();
 
-    void perimeter();
+    double perimeter();
 }
