@@ -1,4 +1,4 @@
-package Shapes;
+package Shapes;//
 
 public interface Shape {
     void area();
